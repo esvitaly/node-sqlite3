@@ -55,7 +55,7 @@
     "prebuild": "12.1.0"
   },
   "peerDependencies": {
-    "node-gyp": "8.x"
+    "node-gyp": "10.x"
   },
   "peerDependenciesMeta": {
     "node-gyp": {
@@ -63,7 +63,7 @@
     }
   },
   "optionalDependencies": {
-    "node-gyp": "8.x"
+    "node-gyp": "10.x"
   },
   "scripts": {
     "install": "prebuild-install -r napi || node-gyp rebuild",
